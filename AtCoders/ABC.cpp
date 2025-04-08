@@ -5,7 +5,8 @@ int main(){
     string abc;
     cin >> abc;
     string resposta = "ABC";
-    int tam = size(abc);
+    // int tam = size(abc);
+    int tam;
     int cont = 0;
     for (int i = 0; i < tam ;i++){
         for(int j = i+1 ; j < tam ; j++){
